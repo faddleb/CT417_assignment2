@@ -1,5 +1,6 @@
 package nuigalway.app;
 
+import org.joda.time.DateTime;
 import nuigalway.app.Module;
 import nuigalway.app.Student;
 
@@ -12,11 +13,12 @@ public class Course
 	private DateTime startDate;
 	private DateTime endDate;
 
-	public Module(String moduleName, String id, Student students[], String courses[]){
-		this.moduleName = moduleName;
-		this.id = id;
+	public Course(String courseName, Module modules[], Student students[], DateTime startDate, DateTime endDate) {
+		this.courseName = courseName;
+		this.modules = modules;
 		this.students = students;
-		this.courses = courses;
+		this.startDate = startDate;
+		this.endDate = endDate;
 	}
 
     public static void main( String[] args )
