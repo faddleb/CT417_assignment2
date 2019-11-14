@@ -1,5 +1,7 @@
 package nuigalway.app;
 
+import nuigalway.app.Course;
+
 public class Student 
 {
 	private String name;
@@ -7,9 +9,9 @@ public class Student
 	private Date dob;
 	private int id;
 	private String username;
-	private String courses[];
+	private Course courses[];
 
-	public Student(String name, int age, Date dob, int id, String courses[]){
+	public Student(String name, int age, Date dob, int id, Course courses[]){
 		this.name = name;
 		this.age = age;
 		this.dob = dob;

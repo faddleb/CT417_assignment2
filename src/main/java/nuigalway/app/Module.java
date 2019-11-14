@@ -1,13 +1,15 @@
 package nuigalway.app;
 
-public class Module 
+import nuigalway.app.Course;
+
+public class Module
 {
 	private String moduleName;
 	private String id;
-	private String students[];
-	private String courses[];
+	private Student students[];
+	private Course courses[];
 
-	public Module(String moduleName, String id, String students[], String courses[]){
+	public Module(String moduleName, String id, Student students[], Course courses[]){
 		this.moduleName = moduleName;
 		this.id = id;
 		this.students = students;
