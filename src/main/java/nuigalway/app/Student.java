@@ -21,16 +21,55 @@ public class Student
 		this.username = getUsername();
 	}
 
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello Student!" );
-    }
-
     public String getUsername(){
     	String username;
 
     	username = this.name + this.age;
     	this.username = username;
     	return username;
-    }
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public Course[] getCourses() {
+		return courses;
+	}
+
+	public void setCourses(Course[] courses) {
+		this.courses = courses;
+	}
 }

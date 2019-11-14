@@ -16,8 +16,35 @@ public class Module
 		this.courses = courses;
 	}
 
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello Module!" );
-    }
+	public String getModuleName() {
+		return moduleName;
+	}
+
+	public void setModuleName(String moduleName) {
+		this.moduleName = moduleName;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public Student[] getStudents() {
+		return students;
+	}
+
+	public void setStudents(Student[] students) {
+		this.students = students;
+	}
+
+	public Course[] getCourses() {
+		return courses;
+	}
+
+	public void setCourses(Course[] courses) {
+		this.courses = courses;
+	}
 }
