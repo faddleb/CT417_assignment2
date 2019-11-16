@@ -17,7 +17,7 @@ public class Course
 		this.modules = modules;
 		this.students = students;
 		this.startDate = startDate;
-		// this.endDate = endDate;
+		this.endDate = endDate;
 	}
 
 	public String getCourseName() {
