@@ -1,7 +1,6 @@
 package nuigalway.app;
 
 import java.util.Date;
-import nuigalway.app.Course;
 
 public class Student 
 {
@@ -12,7 +11,7 @@ public class Student
 	private String username;
 	private Course courses[];
 
-	public Student(String name, int age, Date dob, int id, Course courses[]){
+	public Student(String name, int age, Date dob, int id, Course[] courses){
 		this.name = name;
 		this.age = age;
 		this.dob = dob;
