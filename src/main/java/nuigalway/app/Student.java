@@ -1,7 +1,6 @@
 package nuigalway.app;
 
 import java.util.Date;
-import nuigalway.app.Course;
 
 public class Student 
 {
